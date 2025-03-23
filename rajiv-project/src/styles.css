@@ -1,0 +1,109 @@
+body{
+    font-family: Aerial, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1{
+    text-align:center;
+    color: #333;
+    margin-top :20px;
+}
+
+/* Website List Grid */
+.website-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:20px;
+    padding:20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Website Card Styles */
+.Website-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.website-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Website-image-container{
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+
+.website-image{
+    width:100%;
+    height:150px;
+    overflow:hidden;
+
+}
+
+.website-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition: transform 0.3s ease;
+}
+
+
+.website-card:hover .website-image{
+transform: scale(1.1);
+}
+
+.website-content{
+    padding:15px;
+    text-align:center;
+}
+
+.website-name{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.project-card {
+    background: #fff;
+    margin:20px;
+    padding:20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.project-card h2{
+    margin-rop: 0;
+}
+
+.project-card a:hover{
+    text-decoration: underline;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #007bff
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
