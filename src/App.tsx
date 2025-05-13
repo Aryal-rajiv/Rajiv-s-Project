@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Container, Grid, Typography } from '@mui/material';
 import { Navbar } from './components/layout/Navbar';
 import ProjectCard from './components/layout/ProjectCard';
-import { Javascript } from '@mui/icons-material';
 
 const projects = [
   {
