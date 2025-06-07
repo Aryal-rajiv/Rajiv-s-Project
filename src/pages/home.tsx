@@ -3,13 +3,6 @@ import ProjectCard from '../components/layout/ProjectCard';
 
 const home = [
   {
-    title: "Mangobyte",
-    description: "Worked on Munltiple projects as a WordPress/PHP Developer",
-    image: "/images/Portfolio.webp",
-    link: "../mangobyte",
-    tags: ["WordPress", "PHP", "Javascript", "CSS"]
-  },
-  {
     title: "Facebook Clone for Security Research",
     description: "Facebook clone to exploit bug found in encrpted chat of Facebook messenger",
     image: "/images/Security.webp",
@@ -32,10 +25,52 @@ const home = [
   },
   {
     title: "Sentient World",
-    description: "WordPress Support for Sentient World",
+    description: "WordPress development support along with custom features",
     image: "/images/Sentient.webp",
     link: "https://sentientworld.org/",
-    tags: ["WordPress", "Communication", "Facilitation"]
+    tags: ["WordPress", "Jet Engine", "Smart Filters"]
+  },
+  {
+    title: "Impower Healthcare",
+    description: "A WordPress Digital Marketing with custom theme and WooCommerce integration",
+    image: "/images/impower.webp",
+    link: "https://impowerhealthcare.com/",
+    tags: ["WordPress", "Custom JS", "PHP"]
+  },
+  {
+    title: "Microsoft SSO Plugin",
+    description: "Plugin to verify user with Azure AD annd get acess token",
+    image: "/images/Plugin.webp",
+    link: "https://github.com/Aryal-rajiv/Microsoft-Login-Plugin",
+    tags: ["PHP", "Azure AD"]
+  },
+  {
+    title: "Qualify Express",
+    description: "Wordpress Elementor Website Project, Elementor Templates as per need with Theme Customization",
+    image: "/images/Qualify.webp",
+    link: "https://qualifyexpress.com.au/",
+    tags: ["WordPress", "Elementor", "CSS", "Javascript"]
+  },
+  {
+    title: "Liberty Healthcare Services",
+    description: "Custom CSS for Javascript for the custom feature Needed",
+    image: "/images/Liberty.webp",
+    link: "https://libertyhealthservices.com.au/",
+    tags: ["WordPress", "Custom CSS", "Elementor Template"]
+  },
+  {
+    title: "TagMyFav",
+    description: "Site revamp with feature like Custom Pricing Table",
+    image: "/images/Tagmy.webp",
+    link: "https://https://tagmyfav.com/",
+    tags: ["WordPress", "Elementor",]
+  },
+  {
+    title: "LawToolBox",
+    description: "Feature like Deadline Calculator",
+    image: "/images/Lawtool.webp",
+    link: "https://lawtoolbox.com/",
+    tags: ["API Integration", "JavaScript", "CSS"]
   }
 ];
 
