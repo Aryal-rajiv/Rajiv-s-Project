@@ -7,7 +7,7 @@ const home = [
     description: "Worked on Munltiple projects as a WordPress/PHP Developer",
     image: "/images/Portfolio.webp",
     link: "../mangobyte",
-    tags: ["Express", "Bootstrap"]
+    tags: ["WordPress", "PHP", "Javascript", "CSS"]
   },
   {
     title: "Facebook Clone for Security Research",

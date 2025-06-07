@@ -33,17 +33,17 @@ const mangobyte = [
   },
   {
     title: "TagMyFav",
-    description: "Website for My Accountabilioty using WordPress in quicktime",
-    image: "/images/My.webp",
-    link: "https://myaccountabilitynow.org/",
+    description: "Site revamp with feature like Custom Pricing Table",
+    image: "/images/Tagmy.webp",
+    link: "https://https://tagmyfav.com/",
     tags: ["WordPress", "Elementor",]
   },
   {
     title: "LawToolBox",
-    description: "WordPress Support for Sentient World",
-    image: "/images/Sentient.webp",
-    link: "https://sentientworld.org/",
-    tags: ["WordPress", "Communication", "Facilitation"]
+    description: "Feature like Deadline Calculator",
+    image: "/images/Lawtool.webp",
+    link: "https://lawtoolbox.com/",
+    tags: ["API Integration", "JavaScript", "CSS"]
   }
 ];
 
