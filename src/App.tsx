@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Navbar } from './components/layout/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-import Mangobyte from './pages/mangobyte';
+import Learn from './pages/learn';
 
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
        <Routes>
         <Route path="/" element={<Home />} /> 
-        <Route path="/mangobyte" element={<Mangobyte />} />
+        <Route path="/learn" element={<Learn />} />
          </Routes>
       </Router>
     </>
